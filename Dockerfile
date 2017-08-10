@@ -8,3 +8,10 @@ RUN apt-get update \
 RUN useradd --create-home -s /bin/bash user
 WORKDIR /home/user
 USER user
+
+RUN echo "
+ ___
+{O,O}
+|)__)
+-\"-\"-
+"
